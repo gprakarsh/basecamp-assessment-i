@@ -1,24 +1,24 @@
 // #1 create a variable called 'myName' and assign it to your name as a string
 
 // CODE HERE
-var myName = "Prakarsh Gupta"
+var myName = "Prakarsh Gupta";
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
 // CODE HERE
-var favNum = 10
+var faveNum = 10;
 // #3 create a variable called 'lovesCode' and set it to true
 
 // CODE HERE
-var lovesCode = true
+var lovesCode = true;
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
 // CODE HERE
-var me = "My name is "+myName+" and my favorite number is "+favNum
+var me = "My name is "+myName+" and my favorite number is "+faveNum
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
 // CODE HERE
 var num=10;var trueFaveNum;
-if (num===favNum){
+if (num===faveNum){
 trueFaveNum=true
 } ;
 
@@ -26,7 +26,7 @@ trueFaveNum=true
 
 // CODE HERE
 if (myName!="Hakeem Olajuwon"){
-    console.log("My name is not Hakeem Olajuwon")
+    var notHakeem= true;
 };
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
 var age = 18;
@@ -47,7 +47,7 @@ var colorResponse;
 var responseCreator = function(param){
   // CODE HERE
   if(param==='green'){
-      colorResponse="Green is Okay";
+      colorResponse="Green is okay";
   }
   else if(param==='red'){
       colorResponse="I heart red"
@@ -58,7 +58,7 @@ return colorResponse
 
 // #9 Create a function called 'sum' that takes in one parameter and returns the sum of that parameter added it itself.
 function sum(num1){
-return num1
+return num1+num1 
 };
 // CODE HERE
 
@@ -66,5 +66,5 @@ return num1
 
 // CODE HERE
 function greeter(name,number){
-    return "Hi! I am "+name"and I am "+number" years old"
+    return "Hi! I am "+name+" and I am "+number+" years old"
 };
